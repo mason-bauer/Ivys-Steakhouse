@@ -1,0 +1,23 @@
+{
+  "name": "ivys-steakhouse",
+  "version": "1.0.0",
+  "description": "Fake site for a fake client.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mason-bauer/Ivys-Steakhouse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mason-bauer/Ivys-Steakhouse/issues"
+  },
+  "homepage": "https://github.com/mason-bauer/Ivys-Steakhouse#readme",
+  "dependencies": {
+    "tailwindcss": "^2.0.2"
+  }
+}
