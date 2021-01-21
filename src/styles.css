@@ -1,3 +1,17 @@
+@import url("https://use.typekit.net/hpk7ddc.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+nav li a {
+    @apply py-2 px-4 font-body text-2xl font-black
+}
+
+nav li {
+    @apply ml-6
+}
+
+nav li a:hover {
+    @apply text-gray-500
+}
